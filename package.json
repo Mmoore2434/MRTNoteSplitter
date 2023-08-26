@@ -7,6 +7,7 @@
         "materialize-css": "^1.0.0-rc.2"
     },
     "scripts": {
+        "build:digitalocean": "npm install --production=false && npm run build && npm ci",
         "start": "node app.js"
     }
 }
