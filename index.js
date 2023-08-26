@@ -2,7 +2,7 @@
 
 const express = require('express');
 const path = require('path');
-const { createServer } = require('http');
+const { createServer } = require('https');
 
 const WebSocket = require('ws');
 
@@ -28,6 +28,6 @@ wss.on('connection', function (ws) {
   });
 });
 
-server.listen(3000, function () {
-  console.log('Listening on http://0.0.0.0:3000');
+server.listen(8080, function () {
+  console.log('Listening on http://0.0.0.0:8080');
 });
