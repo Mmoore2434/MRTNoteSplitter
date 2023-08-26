@@ -5,5 +5,8 @@
     "packages": {},
     "dependencies": {
         "materialize-css": "^1.0.0-rc.2"
+    },
+    "scripts": {
+        "start": "node app.js"
     }
 }
