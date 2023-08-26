@@ -28,6 +28,6 @@ wss.on('connection', function (ws) {
   });
 });
 
-server.listen(8080, hostname, function () {
-  console.log('Listening on https://mrtnotesplitter.com/:8080');
+server.listen(8080, function () {
+  console.log('Listening on http://0.0.0.0:8080');
 });
